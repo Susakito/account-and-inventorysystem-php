@@ -1,0 +1,101 @@
+body
+{
+	/*background-image: url(background.jpg);*/
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(45,46,48);
+    color: black;
+}
+
+.container
+{
+	width: 750px;
+	height: 600px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(241,241,241);
+	margin-top: 160px;
+	border-style: solid;
+	border-color: rgba(20,87,146);
+	border-width: 10px;
+	border-radius: 25px;
+	
+}	
+
+.container img
+{
+	border-style: solid;
+	border-color: rgb(20,87,146);
+	border-radius: 25px;
+	height: 150px;
+	margin-top: -60px;
+
+}
+
+.container .top .header h1
+{
+	color: black;
+}
+
+.container .top .header h3
+{
+	color: black;
+}
+
+.container table
+{
+	font-size: 15px;
+	color: black;
+	border: 1px solid #ddd;
+	border-radius: 25px;
+  	padding: 1px;
+
+}
+
+.container table a
+{
+	margin-right: 10px;
+
+}
+
+.container tr:nth-child(even){background-color: white;}
+
+.container tr:hover {background-color: rgba(141,192,239);}
+
+
+.container th
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: rgba(20,87,146);
+	color: white;
+}
+
+.container td
+{	
+	font-size: 15px;
+	color: black;
+}
+
+.container a
+{
+	color: black;
+}
+
+.container p
+{
+	color: black;
+}
+
+.btnsubmita
+{
+	padding: 5px 5px;
+	border: none;
+	background-color: rgba(20,87,146);
+	color: #fff;
+}
+
+
+
